@@ -8,7 +8,7 @@ const Sidebar = () => {
     return (
         <div className=' m-3 position-fixed'>
             <div className='d-flex flex-column gap-3'>
-                <img className='logo-text' src='../public/instaText.png' alt="Not found" />
+                <img className='logo-text' src='dist\instaText.png' alt="Not found" />
                 <div><i className="bi bi-house-door"></i>Home</div>
                 <div><i className="bi bi-search"></i>Search</div>
                 <div><i className="bi bi-compass"></i>Explore</div>
