@@ -1,0 +1,246 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "user": {
+        "id": 101,
+        "username": "JK_722005",
+        "profile_pic": "../public/JK.jpg"
+      },
+      "image": "https://picsum.photos/500/500?random=1",
+      "caption": "Beautiful sunset 🌅 #Nature",
+      "likes": 120,
+      "comments": [
+        {
+          "user": "alice_wonder",
+          "comment": "Wow! Amazing shot! 📸"
+        },
+        {
+          "user": "mark_92",
+          "comment": "Where is this place?"
+        }
+      ],
+      "timestamp": "2026-05-15T10:30:00Z"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 102,
+        "username": "Kaviya_2003",
+        "profile_pic": "../public/shree.png"
+      },
+      "image": "https://picsum.photos/500/500?random=2",
+      "caption": "Coffee time ☕ #Morning",
+      "likes": 240,
+      "comments": [
+        {
+          "user": "john_doe",
+          "comment": "Looks tasty 😍"
+        },
+        {
+          "user": "emma",
+          "comment": "Need this right now!"
+        }
+      ],
+      "timestamp": "2026-05-15T11:00:00Z"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 103,
+        "username": "sophia",
+        "profile_pic": "../public/profile1.png"
+      },
+      "image": "https://picsum.photos/500/500?random=3",
+      "caption": "Gym workout completed 💪 #Fitness",
+      "likes": 540,
+      "comments": [
+        {
+          "user": "david_k",
+          "comment": "Beast mode 🔥"
+        },
+        {
+          "user": "sophia",
+          "comment": "Motivation 💯"
+        }
+      ],
+      "timestamp": "2026-05-15T12:15:00Z"
+    },
+    {
+      "id": "4",
+      "user": {
+        "id": 104,
+        "username": "david_k",
+        "profile_pic": "../public/profile2.png"
+      },
+      "image": "https://picsum.photos/500/500?random=4",
+      "caption": "Rainy vibes 🌧️ #Chill",
+      "likes": 310,
+      "comments": [
+        {
+          "user": "alex_07",
+          "comment": "Nice weather 😄"
+        },
+        {
+          "user": "john_doe",
+          "comment": "Loved this pic!"
+        }
+      ],
+      "timestamp": "2026-05-15T01:45:00Z"
+    },
+    {
+      "id": "5",
+      "user": {
+        "id": 105,
+        "username": "Shree_13",
+        "profile_pic": "https://i.pravatar.cc/150?img=5"
+      },
+      "image": "https://picsum.photos/500/500?random=5",
+      "caption": "Burger special 🍔 #Foodie",
+      "likes": 780,
+      "comments": [
+        {
+          "user": "emma",
+          "comment": "Yummy 🤤"
+        },
+        {
+          "user": "mark_92",
+          "comment": "I’m hungry now 😂"
+        }
+      ],
+      "timestamp": "2026-05-15T02:30:00Z"
+    }
+  ],
+  "profile": {
+    "id": 101,
+    "username": "Kaviya_2003",
+    "profile_pic": "../public/shree.png"
+  },
+  "suggestions": [
+    {
+      "id": "101",
+      "username": "Shree_13",
+      "profile_pic": "https://i.pravatar.cc/150?img=5"
+    },
+    {
+      "id": "102",
+      "username": "Jegan_C",
+      "profile_pic": "../public/profile2.png"
+    },
+    {
+      "id": "103",
+      "username": "sophia",
+      "profile_pic": "../public/profile1.png"
+    },
+    {
+      "id": "104",
+      "username": "Kaviya_2003",
+      "profile_pic": "../public/shree.png"
+    },
+    {
+      "id": "105",
+      "username": "sophia",
+      "profile_pic": "../public/profile1.png"
+    },
+    {
+      "id": "106",
+      "username": "Deviya_2004",
+      "profile_pic": "../public/shree.png"
+    }
+  ],
+  "story": [
+    {
+      "id": "1",
+      "user": {
+        "id": 101,
+        "username": "JK_722005",
+        "profile_pic": "../public/JK.jpg"
+      },
+      "image": "../public/post1.png"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 102,
+        "username": "Kaviya_2003",
+        "profile_pic": "../public/shree.png"
+      },
+      "image": "../public/post2.png"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 103,
+        "username": "sophia",
+        "profile_pic": "../public/profile1.png"
+      },
+      "image": "../public/post3.png"
+    },
+    {
+      "id": "4",
+      "user": {
+        "id": 104,
+        "username": "david_k",
+        "profile_pic": "../public/profile2.png"
+      },
+      "image": "../public/post4.png"
+    },
+    {
+      "id": "5",
+      "user": {
+        "id": 105,
+        "username": "Shree_13",
+        "profile_pic": "https://i.pravatar.cc/150?img=5"
+      },
+      "image": "../public/post5.png"
+    },
+    {
+      "id": "6",
+      "user": {
+        "id": 106,
+        "username": "Shree_13",
+        "profile_pic": "https://i.pravatar.cc/150?img=5"
+      },
+      "image": "../public/post6.png"
+    },
+    {
+      "id": "7",
+      "user": {
+        "id": 107,
+        "username": "Shree_13",
+        "profile_pic": "https://i.pravatar.cc/150?img=5"
+      },
+      "image": "../public/post7.png"
+    }
+  ],
+  "followers": [
+    {
+      "id": "102",
+      "username": "Kaviya_2003",
+      "profile_pic": "../public/shree.png"
+    },
+    {
+      "id": "104",
+      "username": "david_k",
+      "profile_pic": "../public/profile2.png"
+    },
+    {
+      "id": "105",
+      "username": "Shree_13",
+      "profile_pic": "https://i.pravatar.cc/150?img=5"
+    },
+    {
+      "id": "qC16C9UPq6A",
+      "username": "Deviya_2004"
+    },
+    {
+      "id": "8RMyi2ZjhQQ",
+      "username": "Deviya_2004"
+    },
+    {
+      "id": "aV8ilPzzq_o",
+      "username": "Kaviya_2003"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
