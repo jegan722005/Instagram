@@ -14,9 +14,7 @@
     margin-right:10px;
 }
 .cur-point:hover{
-    width: 10%;
     cursor: pointer;
-    background-color:rgba(128, 128, 128, 0.452);
 }
 
 .story{
