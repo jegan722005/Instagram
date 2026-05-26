@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
+import Profile from './Profile';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Suggestions = () => {
 
@@ -27,12 +29,15 @@ const Suggestions = () => {
   }
 
   return (
+
     <div className='position-fixed'>
       <div className='suggestion w-100 m-4'>
         {profile ?
           <div className='d-flex gap-1'>
             <img className='db rounded-circle' src={profile.profile_pic} alt={profile.name || 'Post user'} />
-            <h5 >{profile.username}</h5>
+            <Link className='text-decoration-none color-white font-size-bold'
+            to={'/profile'}
+            >{profile.username}</Link>
             <p className='ms-auto text-primary cursor-pointer'>Switch</p>
 
           </div>
@@ -51,7 +56,7 @@ const Suggestions = () => {
                 <div className='d-flex gap-2'>
                   <img className='db rounded-circle' src={suggestion.profile_pic} alt='suggestions for user' />
                   <h5 >{suggestion.username}</h5>
-                  <a className='text-primary ms-auto cursor-pointer'
+                  <a className='text-primary ms-auto cursor-pointer text-decoration-none'
                   onClick={()=>{handleFollow(suggestion.id,suggestion.username)}}
                   >follow</a>
                 </div>
@@ -61,9 +66,13 @@ const Suggestions = () => {
 
         ) : (
           <div>
-            Loading Posts ....
+            Loading Suggestions ....
           </div>
         )}
+      </div>
+
+      <div className='d-flex flex-column justify-content-center align-items-center p-4 m-4'>
+        <button className='btn btn-secondary p-2'><i className='bi bi-send'></i> See Messages</button>
       </div>
     </div>
   )

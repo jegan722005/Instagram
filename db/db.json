@@ -242,5 +242,6 @@
       "username": "Kaviya_2003"
     }
   ],
+
   "$schema": "./node_modules/json-server/schema.json"
 }

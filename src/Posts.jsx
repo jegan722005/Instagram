@@ -24,10 +24,10 @@ const Posts = () => {
                         <h5 >{post.user.username}</h5>
                     </div>
                     <img className='image' src={post.image} alt="posts" />
-                    <div>
-                      <i className='bi bi-heart'></i>
-                      <i className='bi bi-chat'></i>
-                      <i className='bi bi-send'></i>
+                    <div className='d-flex justify-content-evenly'>
+                      <i className='bi bi-heart'><span className='px-2'>{post.likes}</span></i>
+                      <i className='bi bi-chat'><span  className='px-2'>10</span></i>
+                      <i className='bi bi-send'><span  className='px-2'>20</span></i>
                     </div>
                     <div>
                       <b>{post.likes} likes</b>
